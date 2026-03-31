@@ -17,7 +17,7 @@ contract DataLocation{
         persons[index].name = newName;
     }
 
-    function getPerson(uint index) public view returns(Person memory){ // returns copy of data but not a data, and we need memory
+    function getPerson(uint index) public view returns (Person memory){ // returns copy of data but not a data, and we need memory
         Person memory pers = persons[index];
         return pers;
     }
